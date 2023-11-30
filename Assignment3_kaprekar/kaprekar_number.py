@@ -7,7 +7,6 @@ def get_digits(number):
     return [thousands, hundreds, tens, ones]
 
 def are_all_digits_identical(digits):
-    # Check if all digits in the list are identical
     return len(set(digits)) == 1
 
 def sort_digits_desc(digits):
